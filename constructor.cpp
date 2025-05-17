@@ -61,4 +61,5 @@ float lihatGajiDosen(Dosen* d) {
 
 int main() {
     Mahasiswa m1("Ali", "0147");
-    
+    Dosen d1("Dr. Budi", "123456", "Lektor", 8000000);
+   
