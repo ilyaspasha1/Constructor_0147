@@ -68,4 +68,10 @@ int main() {
     m1.tampilkanInfo();
 
     d1.beriNilai(&m1, 87.5);
+    cout << "\n=== Setelah Diberi Nilai Oleh Dosen ===" << endl;
+    m1.tampilkanInfo();
+
+    cout << "\n=== Informasi Dosen ===" << endl;
+    d1.tampilkanInfo();
+
    
