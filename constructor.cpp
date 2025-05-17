@@ -80,3 +80,6 @@ int main() {
 
     cout << "\n=== Universitas Melihat Gaji Dosen ===" << endl;
     cout << "Gaji Dosen: Rp. " << lihatGajiDosen(&d1) << endl;
+
+    return 0;
+}
