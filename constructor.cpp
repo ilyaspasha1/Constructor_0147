@@ -78,4 +78,5 @@ int main() {
     s1.ubahPangkat(&d1, "Guru Besar");
     d1.tampilkanInfo();
 
-   
+    cout << "\n=== Universitas Melihat Gaji Dosen ===" << endl;
+    cout << "Gaji Dosen: Rp. " << lihatGajiDosen(&d1) << endl;
