@@ -58,3 +58,7 @@ public:
 float lihatGajiDosen(Dosen* d) {
     return d->gaji;
 }
+
+int main() {
+    Mahasiswa m1("Ali", "0147");
+    
