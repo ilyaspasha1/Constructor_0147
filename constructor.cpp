@@ -74,4 +74,6 @@ int main() {
     cout << "\n=== Informasi Dosen ===" << endl;
     d1.tampilkanInfo();
 
-   
+    cout << "\n=== Staff Mengubah Pangkat Dosen ===" << endl;
+    s1.ubahPangkat(&d1, "Guru Besar");
+    
