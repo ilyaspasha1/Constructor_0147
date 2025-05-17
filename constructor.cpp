@@ -76,4 +76,6 @@ int main() {
 
     cout << "\n=== Staff Mengubah Pangkat Dosen ===" << endl;
     s1.ubahPangkat(&d1, "Guru Besar");
-    
+    d1.tampilkanInfo();
+
+   
