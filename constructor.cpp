@@ -54,3 +54,7 @@ public:
         d->pangkat = pangkatBaru;
     }
 };
+
+float lihatGajiDosen(Dosen* d) {
+    return d->gaji;
+}
