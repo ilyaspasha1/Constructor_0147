@@ -19,3 +19,14 @@ public:
         cout << "NIM: " << NIM << endl;
         cout << "Nilai: " << nilai << endl;
     }
+
+    friend class Dosen;
+};
+
+class Dosen {
+private:
+    string nama;
+    string NIDN;
+    string pangkat;
+    float gaji;
+
