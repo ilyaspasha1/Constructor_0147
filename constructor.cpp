@@ -37,4 +37,20 @@ public:
         m->nilai = nilaiBaru;
     }
 
-    
+    void tampilkanInfo() {
+        cout << "Nama Dosen: " << nama << endl;
+        cout << "NIDN: " << NIDN << endl;
+        cout << "Pangkat: " << pangkat << endl;
+        cout << "(Gaji tidak dapat diakses langsung)" << endl;
+    }
+
+    friend class Staff;
+    friend float lihatGajiDosen(Dosen* d);
+};
+
+class Staff {
+public:
+    void ubahPangkat(Dosen* d, string pangkatBaru) {
+        d->pangkat = pangkatBaru;
+    }
+};
