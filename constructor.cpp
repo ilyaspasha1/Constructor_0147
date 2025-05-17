@@ -30,3 +30,11 @@ private:
     string pangkat;
     float gaji;
 
+public:
+    Dosen(string n, string id, string p, float g) : nama(n), NIDN(id), pangkat(p), gaji(g) {}
+
+    void beriNilai(Mahasiswa* m, float nilaiBaru) {
+        m->nilai = nilaiBaru;
+    }
+
+    
